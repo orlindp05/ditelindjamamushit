@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gëzuar Ditëlindjen Mami</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="StyleBirthday.css" rel="stylesheet" />
+  </head>
+  <body>
+
+    <!-- Layer 0: static dark base is on body itself -->
+
+    <!-- Layer 1: aurora glow orbs -->
+    <div class="aurora-wrap">
+      <div class="orb orb1"></div>
+      <div class="orb orb2"></div>
+      <div class="orb orb3"></div>
+    </div>
+
+    <!-- Layer 2: stars -->
+    <div class="stars-wrap">
+      <div class="star-field field1"></div>
+      <div class="star-field field2"></div>
+    </div>
+
+    <!-- Layer 3: shooting stars -->
+    <div class="shoots-wrap">
+      <div class="shoot"></div>
+      <div class="shoot"></div>
+      <div class="shoot"></div>
+      <div class="shoot"></div>
+    </div>
+
+    <!-- Layer 4: content -->
+    <main class="scene">
+
+      <section class="intro" id="intro">
+        <h1 class="floating-text">Hej Mama!💖</h1>
+        <p class="floating-text">Ti ke qënë, je dhe do të jesh më e veçanta në jetën time</p>
+        <p class="floating-text">Edhe të të falënderojmë për gjithçka që ke bërë për ne, nuk mjafton</p>
+        <p class="floating-text">Prandaj merre këtë dhuratë të vogël nga djali jot i dashur.</p>
+      </section>
+
+      <section class="final-section hidden" id="finalSection">
+        <div class="wish-text">
+          <p>Gëzuar ditëlindjen e 53 Mamushi.</p>
+          <p>Qofsh gjithmonë e gëzuar dhe e bekuar.</p>
+          <p>Ne të duam pafundësisht shumë. 😘</p>
+        </div>
+        <div class="cake-area">
+          <h2 class="cake-title" id="cakeTitle">Shpreh një dëshirë😇</h2>
+          <img class="cake-img" id="cakeImg" src="CakeLitON (2).gif" alt="Tortë me qirinj" draggable="false" />
+          <p class="wish-come-true hidden" id="wishComeTrue">Le të bëhet realitet dëshira jote mamush! 🕯️</p>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="DitelindjaScript.js"></script>
+  </body>
+</html>
